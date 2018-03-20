@@ -60,7 +60,7 @@ void spi_byte_read_espslave(uint8 spi_no,uint8 *data);
 void spi_slave_init(uint8 spi_no,uint8 data_len);
   //esp8266 slave isr handle funtion,tiggered when any transmission is finished.
   //the function is registered in spi_slave_init.
-void spi_slave_isr_handler(void *para); 
+void spi_slave_isr_handler(void *para);
 
 
 //hspi test function, used to test esp8266 spi slave
@@ -71,4 +71,3 @@ void spi_test_init(void);
 
 
 #endif
-
